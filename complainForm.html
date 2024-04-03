@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LiteMap | Sliding SignUp Form</title>
+    <link rel="stylesheet" href="./complainCss.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <nav>
+        <div class="nav__header">
+          <div class="logo nav__logo">
+            <a href="../index.html">Complain<span>System</span></a>
+          </div>
+          <div class="nav__menu__btn" id="menu-btn">
+            <span><i class="ri-menu-line"></i></span>
+          </div>
+        </div>
+        <ul class="nav__links" id="nav-links">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#feedback">Feedback</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+        <div class="nav__btn">
+          <button class="btn"><i class="ri-user-fill"></i> <a href="../logInAndSignUp/login.html">Log in</a></button>
+        </div>
+      </nav>
+
+    <section>
+        <input type="checkbox" id="one">
+    <input type="checkbox" id="two">
+  <div class="container1">
+    <h1>Complain Form</h1>
+    <div class="indicator">
+        <div class="step step1">
+            <div>1</div>
+            <span>Basic</span>
+        </div>
+        <div class="line line2"></div>
+        <div class="step step2">
+            <div>2</div>
+            <span>Basic</span>
+        </div>
+        
+        <div class="line line3"></div>
+        <div class="step step3">
+            <div>3</div>
+            <span>Image</span>
+        </div>
+
+    </div>
+
+    <div class="panel">
+        <div class="page1">
+            <form action="#" class="form">
+                <h2>Basic Information</h2>
+                <div class="form-group">
+                    <input type="text" required>
+                    <label for="">Room No</label>
+                </div>
+                <div class="form-group">
+                    <input type="text" required>
+                    <label for="">Mobile no</label>
+                </div>
+                <div class="btn-group">
+                    <label for="one" class="btn btn-f">Next</label>
+                </div>
+            </form>
+        </div>
+        <div class="page2">
+            <form action="#" class="form">
+                <h2>Basic Information</h2>
+                <div class="form-group">
+                    <select type="text" >
+                        <option>Electrician</option>
+                        <option>Plumbing</option>
+                        <option>Cleaning</option>
+                        <option>Carpenter</option>
+                      </select>
+                    <label for="">Type of complain</label>
+                </div>
+                <div class="form-group">
+                    <select type="text">
+                        <option>High</option>
+                        <option>Medium</option>
+                      </select>
+                    <label for="">Priority</label>
+                </div>
+                <div class="btn-group">
+                    <label for="one" class="btn">Previous</label>
+                    <label for="two" class="btn">Next</label>
+                </div>
+            </form>
+        </div>
+
+        
+        <div class="page3">
+            <form action="#" class="form">
+                <h2>Image</h2>
+                <div class="form-group textarea">
+                    <textarea></textarea>
+                    <label for="">Description</label>
+                </div>
+                <div class="form-group">
+                    <input  type="file" required>
+                </div>
+                <div class="btn-group">
+                    <label for="two" class="btn">Previous</label>
+                    <button type="submit" class="btn">Submit</button>
+                </div>
+            </form>
+        </div>
+
+        
+    </div>
+  </div> 
+    </section>
+    
+  <footer class="footer" id="contact">
+    <div class="section__container footer__container">
+      <div class="footer__col">
+        <div class="logo footer__logo">
+          <a href="#">Complain<span>System</span></a>
+        </div>
+        <p class="section__description">
+          Simplify Complaints, Amplify Solutions
+        </p>
+      </div>
+    
+      <div class="footer__col">
+        <h4>Information</h4>
+        <ul class="footer__links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Feedback</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+    
+    </div>
+    <div class="footer__bar">
+      Copyright © 2024 ComplainSystem. All rights reserved.
+    </div>
+  </footer>     
+</body>
+</html>
