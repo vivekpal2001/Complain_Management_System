@@ -15,8 +15,8 @@
     --border-color: #e6e5e5;
     --toggle-color: #DDD;
     --box1-color: #4DA3FF;
-    --box2-color: #FFE6AC;
-    --box3-color: #E7D1FC;
+    --box2-color: #a0f874;
+    --box3-color: #f57461;
     --title-icon-color: #fff;
     
     /* ====== Transition ====== */
@@ -148,7 +148,7 @@ nav.close li a .link-name{
 }
 .nav-links li a:hover i,
 .nav-links li a:hover .link-name{
-    color: var(--primary-color);
+    color: teal;
 }
 body.dark .nav-links li a:hover i,
 body.dark .nav-links li a:hover .link-name{
@@ -352,6 +352,25 @@ nav.close ~ .dashboard .top{
     margin-top: 20px;
     white-space: nowrap;
     color: var(--text-color);
+}
+
+
+
+.active{
+    border: 1px solid yellow;
+    background-color: yellow;
+    border-radius: 10px;
+}
+.pending{
+    border: 1px solid red;
+    background-color: red;
+    padding: 4px;
+    border-radius: 10px;
+}
+.done{
+    border: 1px solid rgb(0, 255, 72);
+    background-color: rgb(0, 255, 72);
+    border-radius: 10px;
 }
 @media (max-width: 1000px) {
     nav{

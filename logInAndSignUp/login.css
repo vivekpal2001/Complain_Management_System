@@ -12,9 +12,12 @@
     border-radius: 10px;
     box-sizing: border-box;
     padding: 20px 30px;
+    margin-bottom: 50px;
+    margin-top: 20px;
   }
   
   .title {
+    color: teal;
     text-align: center;
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
           "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
@@ -24,7 +27,6 @@
   }
   
   .form {
-    margin-top:50px;
     width: 100%;
     display: flex;
     flex-direction: column;

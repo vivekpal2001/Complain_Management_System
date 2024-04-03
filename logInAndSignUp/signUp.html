@@ -15,7 +15,7 @@
     <nav>
         <div class="nav__header">
           <div class="logo nav__logo">
-            <img  src="./assets/logo1.png" alt="">
+            <img  src="../assets/logo1.png" alt="">
             <a href="../index.html">Complain<span>System</span></a>
           </div>
           <div class="nav__menu__btn" id="menu-btn">
@@ -35,7 +35,7 @@
     <section class="signUp">
         <form class="form">
             <p class="title">Register </p>
-            <p class="message">Signup now and get full access to our app. </p>
+            
                 <div class="flex">
                 <label>
                     <input required="" placeholder="" type="text" class="input">
@@ -52,9 +52,22 @@
                 <input required="" placeholder="" type="email" class="input">
                 <span>Email</span>
             </label> 
+            <label>
+                <input required="" placeholder="" type="number" class="input">
+                <span>Phone no</span>
+            </label> 
+            <label>
+              <select type="text" class="input">
+                <option>Select</option>
+                <option>Student</option>
+                <option>Warden</option>
+                <option selected>Worker</option>
+              </select>
+                
+            </label> 
                 
             <label>
-                <input required="" placeholder="" type="password" class="input">
+                <input maxlength="12" minlength="8" required="" placeholder="" type="password" class="input">
                 <span>Password</span>
             </label>
             <label>

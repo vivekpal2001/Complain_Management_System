@@ -3,6 +3,7 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    margin-bottom: 20px;
 }
 .form {
     display: flex;
@@ -83,6 +84,10 @@
     border-radius: 10px;
   }
   
+  .input select{
+    color: grey;
+  }
+
   .form label .input + span {
     position: absolute;
     left: 10px;
