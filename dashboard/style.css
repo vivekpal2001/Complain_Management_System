@@ -83,12 +83,12 @@ nav .logo-image{
     min-width: 45px;
 }
 nav .logo-image img{
-    width: 40px;
-    object-fit: cover;
+    width: 30px;
+    object-fit:contain;
     border-radius: 50%;
 }
 nav .logo-name .logo_name{
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 600;
     color: var(--text-color);
     margin-left: 14px;
@@ -276,7 +276,7 @@ nav.close ~ .dashboard .top{
     position: relative;
     height: 35px;
     width: 35px;
-    background-color: var(--primary-color);
+    background-color: teal;
     border-radius: 6px;
     color: var(--title-icon-color);
     display: flex;
@@ -303,7 +303,7 @@ nav.close ~ .dashboard .top{
     border-radius: 12px;
     width: calc(100% / 3 - 15px);
     padding: 15px 20px;
-    background-color: var(--box1-color);
+    background-color: rgb(71, 201, 201);
     transition: var(--tran-05);
 }
 .boxes .box i{
